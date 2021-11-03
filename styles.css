@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(226, 43%, 10%);
+    font-family: 'rubik', serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.cardStyle{
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+
+}
+.profile{
+    background-color: hsl(246, 80%, 60%);
+}
+
+.work{
+    background: url('images/icon-work.svg');
+    background-color: hsl(15, 100%, 70%);
+    background-repeat: no-repeat;
+}
+.play{
+    background: url('images/icon-play.svg');
+    background-color: hsl(195, 74%, 62%);
+    background-repeat: no-repeat;
+}
+.study{
+    background: url('images/icon-study.svg');
+    background-color: hsl(348, 100%, 68%);
+    background-repeat: no-repeat;
+}
+.exercise{
+    background: url('images/icon-exercise.svg');
+    background-color: hsl(145, 58%, 55%);
+    background-repeat: no-repeat;
+}
+.social{
+    background: url('images/icon-social.svg');
+    background-color: hsl(264, 64%, 52%);
+    background-repeat: no-repeat;
+}
+.self{
+    background: url('images/icon-self-care.svg');
+    background-color: hsl(43, 84%, 65%);
+    background-repeat: no-repeat;
+}
+
