@@ -28,7 +28,6 @@ h2{
     width: 80%;
     height: auto;
     max-width: 1440px;
-    margin: auto;
     padding: 7% 9%;
     display: grid;
     grid-auto-flow: dense;
@@ -50,6 +49,11 @@ h2{
 }
 
 @media (max-width: 550px) {
+    .margin{
+        margin: none;
+
+    }
+
     .footerP{
         width: 80%;
         height: 30%;
@@ -67,9 +71,31 @@ h2{
     .cardStyleX{
         grid-column: span 4;
     }
+    .topP{
+        background-color: hsl(246, 80%, 60%);
+        width: 100%;
+        height: 70%;
+        border-radius: 10px;
+        color: white;
+        padding: 10% 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .topP img{
+        width: 30%;
+        box-sizing: 10px;
+        border: solid rgb(255, 255, 255);
+        border-radius: 50%;
+    }
   }
 
   @media (min-width: 551px) {
+    .margin{
+        margin: auto;
+
+    }
     .footerP{
         width: 80%;
         height: 30%;
@@ -85,6 +111,24 @@ h2{
     }
     .cardStyleX{
         grid-column: span 1;
+    }
+    .topP{
+        background-color: hsl(246, 80%, 60%);
+        width: 100%;
+        height: 70%;
+        border-radius: 10px;
+        color: white;
+        padding: 10% 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .topP img{
+        width: 60%;
+        box-sizing: 10px;
+        border: solid rgb(255, 255, 255);
+        border-radius: 50%;
     }
   }
 
@@ -127,24 +171,7 @@ h2{
     background-color: hsl(235, 46%, 20%);
 }
 
-.topP{
-    background-color: hsl(246, 80%, 60%);
-    width: 100%;
-    height: 70%;
-    border-radius: 10px;
-    color: white;
-    padding: 10% 15%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 
-.topP img{
-    width: 50%;
-    box-sizing: 10px;
-    border: solid rgb(255, 255, 255);
-    border-radius: 50%;
-}
 
 .topP div p{
     color: hsl(236, 100%, 87%);
