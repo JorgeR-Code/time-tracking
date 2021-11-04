@@ -9,7 +9,6 @@
   <title>Frontend Mentor | Time tracking dashboard</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Rubik" rel="stylesheet">
-  <script src="script.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>  
 </head>
 <body>
@@ -18,70 +17,70 @@
       <div class="topP">
           <img src="images/image-jeremy.png">
           <div>
-            <p>Report for</p>
+            <p>Reporte de</p>
             <h1>Jeremy Robson</h1> 
           </div>
       </div>
       <div id="time" class="footerP">
-        <p>Daily</p>
-        <p>Weekly</p>
-        <p>Monthly</p>
+        <p name="daily">Diario</p>
+        <p name="weekly">Semanal</p>
+        <p name="montly">Mensual</p>
       </div>
     </div>
     <div class="cards cardStyleZ">
       <div class="cardStyle work">
         <div class="descriptionT">
           <div class="topDes">
-            <h2>Work</h2>
+            <h2>Trabajo</h2>
             <i></i>
           </div>
           <div class="midDes">
-            <p>32hrs</p>
+            <p id="wCurrent">32hrs</p>
           </div>
           <div class="botDes">
-            <p>Last Week - 36hrs</p>
+            <p id="wPrevious">Semana pasada - 36hrs</p>
           </div>
         </div>
       </div>
       <div class="cardStyle play">
         <div class="descriptionT">
           <div class="topDes">
-            <h2>Play</h2>
+            <h2>Diversión</h2>
             <i></i>
           </div>
           <div class="midDes">
-            <p>32hrs</p>
+            <p id="pCurrent">32hrs</p>
           </div>
           <div class="botDes">
-            <p>Last Week - 36hrs</p>
+            <p id="pPrevious">Semana pasada - 36hrs</p>
           </div>
         </div>
       </div>
       <div class="cardStyle study">
         <div class="descriptionT">
           <div class="topDes">
-            <h2>Study</h2>
+            <h2>Estudios</h2>
             <i></i>
           </div>
           <div class="midDes">
-            <p>32hrs</p>
+            <p id="sCurrent">32hrs</p>
           </div>
           <div class="botDes">
-            <p>Last Week - 36hrs</p>
+            <p id="sPrevious">Semana pasada - 36hrs</p>
           </div>
         </div>
       </div>
       <div class="cardStyle exercise">
         <div class="descriptionT">
           <div class="topDes">
-            <h2>Exercise</h2>
+            <h2>Ejercicio</h2>
             <i></i>
           </div>
           <div class="midDes">
-            <p>32hrs</p>
+            <p id="eCurrent">32hrs</p>
           </div>
           <div class="botDes">
-            <p>Last Week - 36hrs</p>
+            <p id="ePrevious">Semana pasada - 36hrs</p>
           </div>
         </div>
       </div>
@@ -92,24 +91,24 @@
             <i></i>
           </div>
           <div class="midDes">
-            <p>32hrs</p>
+            <p id="soCurrent">32hrs</p>
           </div>
           <div class="botDes">
-            <p>Last Week - 36hrs</p>
+            <p id="soPrevious">Semana pasada - 36hrs</p>
           </div>
         </div>
       </div>
       <div class="cardStyle self">
         <div class="descriptionT">
           <div class="topDes">
-            <h2>Self Care</h2>
+            <h2>Personales</h2>
             <i></i>
           </div>
           <div class="midDes">
-            <p>32hrs</p>
+            <p id="ssCurrent">32hrs</p>
           </div>
           <div class="botDes">
-            <p>Last Week - 36hrs</p>
+            <p id="ssPrevious">Semana pasada - 36hrs</p>
           </div>
         </div>
       </div>
@@ -118,5 +117,7 @@
   <div class="attribution"> 
     Coded by <a href="#">Jorge Rivera</a>.
   </div>
+  <script src="script.js"></script>
+
 </body>
 </html>

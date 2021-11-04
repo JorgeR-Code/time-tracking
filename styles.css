@@ -14,7 +14,7 @@ h2{
     font-weight: 400;
 }
 .midDes{
-    font-size: 2.5vmax;
+    font-size: 3vmax;
     font-weight: 300;
 
 }
@@ -158,7 +158,7 @@ h2{
     cursor: pointer;
 }
 
-.footerP p:focus{
+.footerP p:hover{
     
     color: hsl(236, 100%, 87%);
 }
