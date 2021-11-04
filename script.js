@@ -42,7 +42,7 @@ const cambiarPeriodo = (e) =>{
 function selectTime (periodo, texto){
 
     async function obtenerDatos(){
-        const response = await fetch ("https://github.com/JorgeR-Code/time-tracking/blob/main/data.json");
+        const response = await fetch ("https://time-tracking.jorgerivera.me/data.json");
         const json = await response.json();
 
         document.getElementById('wCurrent').innerHTML = json[0].timeframes[periodo].current + "hrs";
